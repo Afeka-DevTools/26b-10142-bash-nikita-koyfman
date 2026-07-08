@@ -1,0 +1,9 @@
+Commands to run after cloning the project:
+
+chmod +x scripts/*.sh
+
+./scripts/uptime_info.sh
+./scripts/user_info.sh
+./scripts/environment_info.sh
+./scripts/count_files_by_extension.sh .
+./scripts/find_recent_files.sh . 7
