@@ -2,6 +2,8 @@ Commands to run after cloning the project:
 
 chmod +x scripts/*.sh
 
+Run the scripts:
+
 ./scripts/uptime_info.sh
 ./scripts/user_info.sh
 ./scripts/environment_info.sh
