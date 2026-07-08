@@ -2,9 +2,9 @@
 
 ## Team Members
 
-- Student 1: Nikita Koyfman
+- Nikita Koyfman
 
-## Scripts
+## Selected Scripts
 
 ### Nikita Koyfman
 - uptime_info.sh
@@ -21,8 +21,8 @@ All scripts are located inside the `scripts/` directory.
 ## How to Clone the Project
 
 ```bash
-git clone <your repository address>
-cd <project-folder>
+git clone https://github.com/Afeka-DevTools/26b-10142-bash-nikita-koyfman.git
+cd 26b-10142-bash-nikita-koyfman
 ```
 
 ## Give Execute Permission
@@ -101,9 +101,9 @@ Example:
 ./scripts/find_recent_files.sh . 7
 ```
 
-## Git Commands Used
+## Git Commands
 
-After writing or updating scripts:
+Use the following commands to save and upload your changes:
 
 ```bash
 git add .
