@@ -29,7 +29,7 @@ echo "Directory: $DIR"
 echo
 
 # Find files that were modified in the last N days
-find "$DIR" -path "$DIR/.git" -prune -o -type f -mtime -"$DAYS" -print
+find "$DIR" -name ".git" -prune -o -type f -mtime -"$DAYS" -print
 
 echo
 echo "Done"

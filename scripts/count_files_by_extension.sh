@@ -21,7 +21,7 @@ echo "Files in: $DIR"
 echo
 
 # Find files, take their extensions, sort them, and count them
-find "$DIR" -path "$DIR/.git" -prune -o -type f -print | while read -r file; do
+find "$DIR" -name ".git" -prune -o -type f -print | while read -r file; do
     filename=$(basename "$file")
 
     # If the file has an extension, print it
